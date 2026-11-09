@@ -1,0 +1,6 @@
+{
+  "name": "Heritage Kinetic",
+  "description": "Executive institutional digital banking and treasury management platform with real-time liquidity oversight, precision wire operations, and ledger audit controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Manrope", sans-serif;
+  --font-headline: "Manrope", sans-serif;
+  --font-sans: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-navy-base: #000f3c;
+  --color-navy-primary: #012169;
+  --color-navy-container: #012169;
+  --color-crimson-heritage: #D4001A;
+  --color-crimson-cta: #E31837;
+  --color-ice-surface: #F2F6FA;
+  --color-ice-subtle: #E8EFF7;
+  --color-slate-line: #D5DFEB;
+  --color-slate-line-light: #E9EFF5;
+  --color-emerald-cleared: #0D8249;
+  --color-gold-security: #B38200;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #F2F6FA;
+  color: #0d1c2e;
+}
+
+h1, h2, h3, .font-display, .font-headline {
+  font-family: var(--font-display);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums lining-nums;
+}
+
+.elevation-1 {
+  box-shadow: 0px 2px 4px rgba(1, 33, 105, 0.03), 0px 8px 16px rgba(1, 33, 105, 0.04);
+}
+
+.elevation-2 {
+  box-shadow: 0px 4px 12px rgba(1, 33, 105, 0.06), 0px 16px 32px rgba(1, 33, 105, 0.08);
+}
+
+.elevation-3 {
+  box-shadow: 0px 24px 48px -12px rgba(1, 33, 105, 0.18);
+}
